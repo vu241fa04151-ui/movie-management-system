@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Tickets</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/booking.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>MovieBook</h1>
+        <nav>
+            <a href="index.html">Movies</a>
+            <a href="bookings.html">My Bookings</a>
+        </nav>
+    </header>
+
+    <main class="section booking-layout">
+        <section id="movieSummary" class="summary-card"></section>
+
+        <form id="bookingForm" class="booking-form">
+            <label for="customerName">Customer Name</label>
+            <input id="customerName" type="text" placeholder="Enter your name">
+
+            <label for="showTime">Show Time</label>
+            <select id="showTime">
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="1:30 PM">1:30 PM</option>
+                <option value="6:00 PM">6:00 PM</option>
+                <option value="9:30 PM">9:30 PM</option>
+            </select>
+
+            <h3>Select Seats</h3>
+            <div class="screen">SCREEN</div>
+            <div id="seatsContainer" class="seats"></div>
+
+            <div class="total-row">
+                <strong>Total Amount</strong>
+                <span id="totalAmount">₹0</span>
+            </div>
+
+            <button class="primary-btn" type="submit">Confirm Booking</button>
+        </form>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="../js/booking.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+    line-height: 1.5;
+}
+
+.navbar {
+    background: #111;
+    color: white;
+    padding: 18px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: #242424;
+    color: white;
+    padding: 60px 6%;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.controls,
+.section {
+    padding: 28px 6%;
+}
+
+.controls {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.controls input,
+.controls select,
+.booking-form input,
+.booking-form select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background: white;
+}
+
+.controls input {
+    min-width: 280px;
+}
+
+.movie-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 24px;
+}
+
+.movie-card,
+.booking-card,
+.summary-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.movie-info {
+    padding: 16px;
+}
+
+.movie-info p {
+    margin: 6px 0;
+}
+
+.button,
+button,
+.primary-btn {
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 14px;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.message {
+    padding: 20px 0;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 22px;
+    color: #222;
+    text-decoration: none;
+}

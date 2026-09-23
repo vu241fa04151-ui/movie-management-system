@@ -1,0 +1,57 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "language": "English",
+      "releaseYear": 2014,
+      "rating": 8.7,
+      "duration": "169 min",
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "price": 250,
+      "favourite": false
+    },
+    {
+      "id": 2,
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "language": "English",
+      "releaseYear": 2010,
+      "rating": 8.8,
+      "duration": "148 min",
+      "description": "A skilled thief enters people's dreams to steal secrets and is offered a chance to have his past erased.",
+      "poster": "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
+      "price": 220,
+      "favourite": false
+    },
+    {
+      "id": 3,
+      "title": "3 Idiots",
+      "genre": "Comedy",
+      "language": "Hindi",
+      "releaseYear": 2009,
+      "rating": 8.4,
+      "duration": "170 min",
+      "description": "Three engineering students navigate friendship, academic pressure, and their search for meaningful success.",
+      "poster": "https://image.tmdb.org/t/p/w500/66A9MqXOyVFCssoloscw8Rg2G0R.jpg",
+      "price": 180,
+      "favourite": false
+    },
+    {
+      "id": 4,
+      "title": "Avengers: Endgame",
+      "genre": "Action",
+      "language": "English",
+      "releaseYear": 2019,
+      "rating": 8.4,
+      "duration": "181 min",
+      "description": "The Avengers assemble once more to reverse the damage caused by Thanos.",
+      "poster": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "price": 280,
+      "favourite": false
+    }
+  ],
+  "bookings": []
+}

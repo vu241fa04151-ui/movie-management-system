@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Booking System</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>MovieBook</h1>
+        <nav>
+            <a href="index.html">Movies</a>
+            <a href="bookings.html">My Bookings</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Book Your Favourite Movies</h2>
+            <p>Search movies, view details, select seats and book tickets.</p>
+        </section>
+
+        <section class="controls">
+            <input id="searchInput" type="text" placeholder="Search movies...">
+            <select id="genreFilter">
+                <option value="all">All Genres</option>
+                <option value="Sci-Fi">Sci-Fi</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Action">Action</option>
+                <option value="Drama">Drama</option>
+            </select>
+            <select id="sortRating">
+                <option value="none">Sort by Rating</option>
+                <option value="high">Highest Rating</option>
+                <option value="low">Lowest Rating</option>
+            </select>
+        </section>
+
+        <section class="section">
+            <h2>Available Movies</h2>
+            <div id="movieContainer" class="movie-container"></div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="../js/main.js"></script>
+</body>
+</html>
